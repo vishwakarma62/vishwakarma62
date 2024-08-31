@@ -16,7 +16,7 @@ class Skills implements FullStackDeveloper {
                                           "Zipkin", "RabbitMQ", "Config Server", "Gateway (String Cloud Routing)",
                                           "Docker" , "K8s" , "jUnit" , "Mokito" , "PostGIS" , "TimeScaleDB" ,
                                           "git" , "GitHub" , "CI/CD"
-                                       }
+                                       };
 }
 
 class Bio extends Skills {
@@ -24,7 +24,7 @@ class Bio extends Skills {
     String title     = "Full Stack Developer";
     String location  = "Ahmedabad";
     String linkedIn  = "https://www.linkedin.com/in/smit-joshi814/";
-    String GitHub    = "https://github.com/smit-joshi814";
+    String gitHub    = "https://github.com/smit-joshi814";
     String portfolio = "https://resumesmitjoshi.blogspot.com";
 }
 
