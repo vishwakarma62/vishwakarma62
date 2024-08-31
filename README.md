@@ -9,9 +9,14 @@ import FullStackDeveloper from 'smit-joshi814';
 class Skills implements FullStackDeveloper {
     String[] languages  = new String[] { "Java" , "Dart" ,"PHP" , "C#" , "C" ,"C++" };
     String[] frontEnd   = new String[] { "Html" , "CSS" , "JavaScript" , "Bootstrap" , "jQuery" };
-    String[] databases  = new String[] { "Oracle" , "MySQL", "MongoDB" };
-    String[] frameworks = new String[] { "Spring Boot", "Flutter" };
-    String[] others     = new String[]  { "Spring Security" , "JWT Auth" , "Eureka Server" , "Zipkin", "RabbitMQ", "Config Server", "Gateway (String Cloud Routing)", "Docker" , "K8s"}
+    String[] databases  = new String[] { "Oracle" , "MySQL", "MongoDB" , "PostgreSQL" };
+    String[] frameworks = new String[] { "Spring Boot", "Flutter" , "Angular" };
+    String[] others     = new String[] {
+                                          "Spring Security" , "JWT Auth" , "Eureka Server" ,
+                                          "Zipkin", "RabbitMQ", "Config Server", "Gateway (String Cloud Routing)",
+                                          "Docker" , "K8s" , "jUnit" , "Mokito" , "PostGIS" , "TimeScaleDB" ,
+                                          "git" , "GitHub" , "CI/CD"
+                                       }
 }
 
 class Bio extends Skills {
